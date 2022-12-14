@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+<center>
+    <h1>The Web Collage App</h1>
+    <hr>
+    <h4>As soon as the popup appears, click allow. If it doesn't appear, just go ahead and say what it tells you to say below.</h4>
+    <h3>To use this app, you must press the start button, click allow on the popup (if it comes up) and say, take a
+     picture.</h3>
+    <button class="btn btn-info" id="save" onclick="save()">Start</button>
+    <br>
+    <label>The following section is the camera</label>
+    <br>   
+    <div id="camera">
+        <label>All selfies will be displayed here</label>
+        <br>
+    </div>
+    <div id="resultShow">
+        <div id="result1">
+            <img src="pic1.jpg" style="width:30%"
+        </div>
+        <div id="result2">
+                <img src="pic2.jpg" style="width:30%"
+        </div>
+        <div id="result3">
+            <img src="pic3.jpg" style="width:30%"
+        </div>
+     </div>
+</center>
+<div id="footer">Made by Advik Das. Thank you for using our site safely and come back again!</div>
+</body>
+
+</html>
